@@ -28,6 +28,14 @@ A Claude Code plugin marketplace bundling 16 plugins and 68 skills across PKM, p
 | [`social`](plugins/social/README.md) | 2 | สร้างโพสต์โซเชียลมีเดีย — Facebook และ LinkedIn |
 | [`utility`](plugins/utility/README.md) | 2 | จัดการระบบปฏิบัติการ — OS Setup และ Config Snapshot |
 
+### 🧩 Community Plugins
+
+Plugin จากนักพัฒนาอื่นที่แนะนำ — ไม่ได้ bundle อยู่ใน marketplace นี้ ต้องติดตั้งแยกจาก repo ต้นทางเอง
+
+| Plugin | Author | Description |
+|---|---|---|
+| [`diagram-design`](https://github.com/cathrynlavery/diagram-design) | Cathryn Lavery | 38 editorial diagram types (architecture, flowchart, ER, Gantt, Sankey ฯลฯ) — export เป็น standalone HTML/SVG/PNG |
+
 ### 🚀 Install
 
 ```shell
