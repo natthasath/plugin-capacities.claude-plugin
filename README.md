@@ -32,9 +32,9 @@ A Claude Code plugin marketplace bundling 16 plugins and 68 skills across PKM, p
 
 Plugin จากนักพัฒนาอื่นที่แนะนำ — ไม่ได้ bundle อยู่ใน marketplace นี้ ต้องติดตั้งแยกจาก repo ต้นทางเอง
 
-| Plugin | Author | Description |
+| Plugin | Author | วัตถุประสงค์ |
 |---|---|---|
-| [`diagram-design`](https://github.com/cathrynlavery/diagram-design) | Cathryn Lavery | 38 editorial diagram types (architecture, flowchart, ER, Gantt, Sankey ฯลฯ) — export เป็น standalone HTML/SVG/PNG |
+| [`diagram-design`](https://github.com/cathrynlavery/diagram-design) | Cathryn Lavery | สร้างไดอะแกรมสไตล์ editorial 38 แบบ (architecture, flowchart, ER, Gantt, Sankey ฯลฯ) ส่งออกเป็นไฟล์ standalone HTML/SVG/PNG |
 
 ### 🚀 Install
 
