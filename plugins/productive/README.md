@@ -20,6 +20,7 @@ Plugin for **boosting work productivity** — covers Tech Explainer, Meetings, P
 | `grill-me` | สัมภาษณ์ผู้ใช้อย่างเข้มข้นเพื่อ stress-test แผน การตัดสินใจ หรือไอเดีย — แตกเป็น design tree ถามเป็นรอบตาม frontier พร้อมคำตอบแนะนำทุกข้อ เรียกผ่าน `/grill-me` เท่านั้น ไม่ auto-trigger |
 | `copycat` | คัดลอกและดัดแปลง skill จากที่อื่น (GitHub, marketplace อื่น) ให้ตรงกับ pattern ของ marketplace นี้ — สรุปต้นทาง เช็ค dependency/license เสนอการปรับ แล้วถามก่อนเสมอว่าจะใส่ plugin ไหน — เรียกผ่าน `/copycat` เท่านั้น ไม่ auto-trigger |
 | `encryption` | เตรียมไฟล์สำคัญสำหรับส่งต่ออย่างปลอดภัย — รวมโฟลเดอร์เป็น tar.gz เดียว เข้ารหัสด้วย GPG symmetric AES-256 สร้าง `passphrase.txt` แยกไฟล์ พร้อมไฟล์คำแนะนำการ decrypt สไตล์ README ชื่อ `HOW-TO-DECRYPT.md` แนบไปกับ archive ตรวจสอบ decrypt ได้จริงก่อนส่งมอบ และแนะนำให้ส่ง archive กับ passphrase คนละช่องทางกัน — เรียกผ่าน `/encryption` เท่านั้น ไม่ auto-trigger |
+| `spof` | วิเคราะห์หา Single Point of Failure ในระบบหรือสถาปัตยกรรม ครอบคลุม Infrastructure, Network, Database, Application, Third-party/Vendor และ Human/Process พร้อมระดับความเสี่ยง (Impact × Likelihood) และแนวทางแก้ไข — เรียกผ่าน `/spof` เท่านั้น ไม่ auto-trigger |
 
 ### 🏆 Usage
 
@@ -38,4 +39,5 @@ Plugin for **boosting work productivity** — covers Tech Explainer, Meetings, P
 /grill-me <แผน การตัดสินใจ หรือไอเดียที่อยากให้ช่วย stress-test>
 /copycat <ลิงก์ GitHub หรือเนื้อหา skill ที่อยากเอามาปรับใช้>
 /encryption
+/spof <ระบบหรือสถาปัตยกรรมที่ต้องการวิเคราะห์>
 ```
